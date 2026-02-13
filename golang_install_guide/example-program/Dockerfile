@@ -14,7 +14,7 @@
 # ============================================================================
 
 
-FROM golang:1.23-bookworm
+FROM golang:1.26.0-bookworm
 
 # 1. Install the TensorFlow C Library (v2.18.0).
 RUN curl -L https://storage.googleapis.com/tensorflow/versions/2.18.0/libtensorflow-cpu-linux-$(uname -m).tar.gz \
